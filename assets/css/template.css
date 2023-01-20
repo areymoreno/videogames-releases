@@ -1,0 +1,50 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.bg-blue{
+    color:#FFF !important;
+    background-color: blue !important;
+}
+
+.bg-green{
+    color:#FFF !important;
+    background-color: green !important;
+}
+
+.bg-red{
+    color:#FFF !important;
+    background-color: red !important;
+}
+
+.bg-black{
+    color: #FFF !important;
+    background-color: #000 !important;
+}
+
+/** CUSTOM CSS */
+
+#padding{
+    padding: 10px;
+}
+
+#containerYear{
+    margin-top: 15px;
+}
+
+#divYear{
+    margin-bottom: 20px;
+}
+
+#badgeCSS{
+    margin: 0px 5px 0px 5px;
+}
+
+/** @MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
